@@ -1,0 +1,12 @@
+charngram.100d 100
+fasttext.en.300d 300 
+fasttext.simple.300d 300
+glove.840B.300d 300
+glove.twitter.27B.25d 25
+glove.twitter.27B.50d 50
+glove.twitter.27B.100d 100
+glove.twitter.27B.200d 200
+glove.6B.50d 50
+glove.6B.100d 100
+glove.6B.200d 200
+glove.6B.300d 300
