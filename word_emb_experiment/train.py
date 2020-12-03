@@ -185,7 +185,7 @@ def set_up_exp(exp_folder,embedding,dim,batch_size,num_hidden_nodes,num_layers,b
 
     fields = [(None, None),('text',text_field),('label', label_field)]
 
-    train, valid, test = TabularDataset.splits(path="", train='data_vectors/train-text-set-clean.tsv', validation='data_vectors/val-text-set-clean.tsv', test='data_vectors/test-text-set-clean.tsv', 
+    train, valid, test = TabularDataset.splits(path="", train='data_vectors/train-text-set-stop.tsv', validation='data_vectors/val-text-set-stop.tsv', test='data_vectors/test-text-set-stop.tsv', 
     format='TSV', fields=fields, skip_header=True)
     text_field.build_vocab(
             train, 
